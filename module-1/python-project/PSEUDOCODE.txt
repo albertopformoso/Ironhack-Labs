@@ -1,0 +1,37 @@
+exit = False
+while exit == False:
+	caracteres = []
+	shuffle(caracteres) #from random import shuffle
+	rand_num = random.randint(1,11)
+	codificacion=''.join(caracteres)
+
+	funcion encriptar(msj):
+		for i in msj:	
+			indice = codificacion.find(i)
+			n_indice = (indice+rand_num)%len(caracteres)
+			encriptacion += codificacion[n_indice]
+			print('el mensaje encriptado es: ', encriptacion)
+
+	funcion desencriptar(msj):
+		for i in msj:
+			indice = codificacion.find(i)
+			n_indice = (indice-rand_num)%len(caracteres)
+			desencriptacion += codificacion[n_indice]
+			print('el mensaje desencriptado es: ', desencriptacion)
+	
+	opcion = input('presiona un número:
+		1. Encriptar mensaje
+		2. Desencriptar mensaje
+		3. Salir
+		')
+	if opcion == d_opcion(1): #encriptar:
+		mensaje = input('introduzca un mensaje')
+		encriptar(mensaje)
+	elif opcion == d_opcion(2): #desencriptar:
+		mensaje = input('introduzca el mensaje')
+		desencriptar(mensaje)
+	elif opcion == d_opcion(3): #salir:
+		exit = True
+	else:
+		print('Opcion no valida, intente de nuevo...')
+
