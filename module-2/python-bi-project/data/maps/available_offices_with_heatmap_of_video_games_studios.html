@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_494919a39bdc456db294cfcd1a0e441d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://leaflet.github.io/Leaflet.heat/dist/leaflet-heat.js"></script>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_494919a39bdc456db294cfcd1a0e441d" ></div>
+        
+</body>
+<script>    
+    
+            var map_494919a39bdc456db294cfcd1a0e441d = L.map(
+                "map_494919a39bdc456db294cfcd1a0e441d",
+                {
+                    center: [37.781448, -122.405578],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d510ceed52614226a1a94450b08d8239 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_494919a39bdc456db294cfcd1a0e441d);
+        
+    
+            var marker_1892188c95db4e79abfbfc3ded30c7d8 = L.marker(
+                [37.7785548, -122.4034342],
+                {}
+            ).addTo(map_494919a39bdc456db294cfcd1a0e441d);
+        
+    
+            var icon_a4f338720f53473f8a19c76053f31037 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1892188c95db4e79abfbfc3ded30c7d8.setIcon(icon_a4f338720f53473f8a19c76053f31037);
+        
+    
+        var popup_512fc6b9bae140879e5bb5961a7b7126 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4818e0fd11441ccac04f5bc76c72add = $(`<div id="html_f4818e0fd11441ccac04f5bc76c72add" style="width: 100.0%; height: 100.0%;">Occupancy: 6-29                     Price: $4638/mth</div>`)[0];
+            popup_512fc6b9bae140879e5bb5961a7b7126.setContent(html_f4818e0fd11441ccac04f5bc76c72add);
+        
+
+        marker_1892188c95db4e79abfbfc3ded30c7d8.bindPopup(popup_512fc6b9bae140879e5bb5961a7b7126)
+        ;
+
+        
+    
+    
+            marker_1892188c95db4e79abfbfc3ded30c7d8.bindTooltip(
+                `<div>
+                     5th Street, San Francisco, 94107
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bd46bbe1636f4c57a1506f5f535f682a = L.marker(
+                [37.7785548, -122.4034342],
+                {}
+            ).addTo(map_494919a39bdc456db294cfcd1a0e441d);
+        
+    
+            var icon_7cdc0e84a55e4b449e932a2f599de1d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bd46bbe1636f4c57a1506f5f535f682a.setIcon(icon_7cdc0e84a55e4b449e932a2f599de1d2);
+        
+    
+        var popup_22dd6cb6c042458ba0fa141c31b37f8d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a8fb7b8a5c64444847adfc4906d2911 = $(`<div id="html_0a8fb7b8a5c64444847adfc4906d2911" style="width: 100.0%; height: 100.0%;">Occupancy: 1-100                     Price: $1300/mth</div>`)[0];
+            popup_22dd6cb6c042458ba0fa141c31b37f8d.setContent(html_0a8fb7b8a5c64444847adfc4906d2911);
+        
+
+        marker_bd46bbe1636f4c57a1506f5f535f682a.bindPopup(popup_22dd6cb6c042458ba0fa141c31b37f8d)
+        ;
+
+        
+    
+    
+            marker_bd46bbe1636f4c57a1506f5f535f682a.bindTooltip(
+                `<div>
+                     Bryant Street, San Francisco, 94107
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c5cbf6d4af584a118157ad8e358e4d36 = L.marker(
+                [37.779634, -122.4002044],
+                {}
+            ).addTo(map_494919a39bdc456db294cfcd1a0e441d);
+        
+    
+            var icon_28dc699705074918872dc4afc0ee4e62 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c5cbf6d4af584a118157ad8e358e4d36.setIcon(icon_28dc699705074918872dc4afc0ee4e62);
+        
+    
+        var popup_7f67d7483cf44aa7b89519619d6f4e2b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61e23e9055a34d9089f756414da842cd = $(`<div id="html_61e23e9055a34d9089f756414da842cd" style="width: 100.0%; height: 100.0%;">Occupancy: 46-55                     Price: $35558/mth</div>`)[0];
+            popup_7f67d7483cf44aa7b89519619d6f4e2b.setContent(html_61e23e9055a34d9089f756414da842cd);
+        
+
+        marker_c5cbf6d4af584a118157ad8e358e4d36.bindPopup(popup_7f67d7483cf44aa7b89519619d6f4e2b)
+        ;
+
+        
+    
+    
+            marker_c5cbf6d4af584a118157ad8e358e4d36.bindTooltip(
+                `<div>
+                     Folsom St, San Francisco, 94107
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8b4ac5d96f9d4046b6bd0b8f687394a5 = L.marker(
+                [37.7821754, -122.4032172],
+                {}
+            ).addTo(map_494919a39bdc456db294cfcd1a0e441d);
+        
+    
+            var icon_9efa98ad935c41bda92334d0ff79d63c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8b4ac5d96f9d4046b6bd0b8f687394a5.setIcon(icon_9efa98ad935c41bda92334d0ff79d63c);
+        
+    
+        var popup_6defa69812ef4ab287ffa4823c75078a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f73b38e1251457890532f856bbf59f2 = $(`<div id="html_7f73b38e1251457890532f856bbf59f2" style="width: 100.0%; height: 100.0%;">Occupancy: 1-50                     Price: $460/mth</div>`)[0];
+            popup_6defa69812ef4ab287ffa4823c75078a.setContent(html_7f73b38e1251457890532f856bbf59f2);
+        
+
+        marker_8b4ac5d96f9d4046b6bd0b8f687394a5.bindPopup(popup_6defa69812ef4ab287ffa4823c75078a)
+        ;
+
+        
+    
+    
+            marker_8b4ac5d96f9d4046b6bd0b8f687394a5.bindTooltip(
+                `<div>
+                     Folsom Street, Financial District, San Francisco, San Francisco, 94107
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b0c56457473c4762895f7af35d5695f5 = L.marker(
+                [37.7821754, -122.4032172],
+                {}
+            ).addTo(map_494919a39bdc456db294cfcd1a0e441d);
+        
+    
+            var icon_5828ee4a6f124c3d9a0cf4fbde2ec54b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b0c56457473c4762895f7af35d5695f5.setIcon(icon_5828ee4a6f124c3d9a0cf4fbde2ec54b);
+        
+    
+        var popup_8c5962b921bb4576adff769d5b995583 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ae0bc0315014c159cae6c8221d9f85b = $(`<div id="html_0ae0bc0315014c159cae6c8221d9f85b" style="width: 100.0%; height: 100.0%;">Occupancy: 9-50                     Price: $7389/mth</div>`)[0];
+            popup_8c5962b921bb4576adff769d5b995583.setContent(html_0ae0bc0315014c159cae6c8221d9f85b);
+        
+
+        marker_b0c56457473c4762895f7af35d5695f5.bindPopup(popup_8c5962b921bb4576adff769d5b995583)
+        ;
+
+        
+    
+    
+            marker_b0c56457473c4762895f7af35d5695f5.bindTooltip(
+                `<div>
+                     Federal St, San Francisco, 94107
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_22d4467af8c24b33973be21b95d9de76 = L.marker(
+                [37.7835587, -122.3941324],
+                {}
+            ).addTo(map_494919a39bdc456db294cfcd1a0e441d);
+        
+    
+            var icon_985dccdc5de84528918e12497ce9b85b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_22d4467af8c24b33973be21b95d9de76.setIcon(icon_985dccdc5de84528918e12497ce9b85b);
+        
+    
+        var popup_ab4d737a131c49539bc9f45d031102cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22d1340d1e12406c943935d250d309e3 = $(`<div id="html_22d1340d1e12406c943935d250d309e3" style="width: 100.0%; height: 100.0%;">Occupancy: 25-30                     Price: $21875/mth</div>`)[0];
+            popup_ab4d737a131c49539bc9f45d031102cf.setContent(html_22d1340d1e12406c943935d250d309e3);
+        
+
+        marker_22d4467af8c24b33973be21b95d9de76.bindPopup(popup_ab4d737a131c49539bc9f45d031102cf)
+        ;
+
+        
+    
+    
+            marker_22d4467af8c24b33973be21b95d9de76.bindTooltip(
+                `<div>
+                     Clementina St. , San Francisco, 94103
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8a42be8e46bf43789462ac0246eed465 = L.marker(
+                [37.7807105, -122.4061346],
+                {}
+            ).addTo(map_494919a39bdc456db294cfcd1a0e441d);
+        
+    
+            var icon_0a24e3e915b242fe9854ebae71e48c42 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8a42be8e46bf43789462ac0246eed465.setIcon(icon_0a24e3e915b242fe9854ebae71e48c42);
+        
+    
+        var popup_00577f11d4504929ac218c92578abdcc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1cdec67472b34d2699022929d28aaab1 = $(`<div id="html_1cdec67472b34d2699022929d28aaab1" style="width: 100.0%; height: 100.0%;">Occupancy: 1-300                     Price: $800/mth</div>`)[0];
+            popup_00577f11d4504929ac218c92578abdcc.setContent(html_1cdec67472b34d2699022929d28aaab1);
+        
+
+        marker_8a42be8e46bf43789462ac0246eed465.bindPopup(popup_00577f11d4504929ac218c92578abdcc)
+        ;
+
+        
+    
+    
+            marker_8a42be8e46bf43789462ac0246eed465.bindTooltip(
+                `<div>
+                     New Montgomery St., San Francisco, 94105
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7c96c037e9444603abf91418e3e63847 = L.marker(
+                [37.7874603, -122.4027121],
+                {}
+            ).addTo(map_494919a39bdc456db294cfcd1a0e441d);
+        
+    
+            var icon_4599b66a46ab45a59a2637814d858176 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7c96c037e9444603abf91418e3e63847.setIcon(icon_4599b66a46ab45a59a2637814d858176);
+        
+    
+        var popup_273de1952d02466fbc8605412ef816f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dda8a17cc39a40ecb82600347cc247c0 = $(`<div id="html_dda8a17cc39a40ecb82600347cc247c0" style="width: 100.0%; height: 100.0%;">Occupancy: 4-75                     Price: $2200/mth</div>`)[0];
+            popup_273de1952d02466fbc8605412ef816f4.setContent(html_dda8a17cc39a40ecb82600347cc247c0);
+        
+
+        marker_7c96c037e9444603abf91418e3e63847.bindPopup(popup_273de1952d02466fbc8605412ef816f4)
+        ;
+
+        
+    
+    
+            marker_7c96c037e9444603abf91418e3e63847.bindTooltip(
+                `<div>
+                     Tehama St., San Francisco, 94105
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5295c28a046c452298d90fe99df9ec92 = L.marker(
+                [37.7859977, -122.4003979],
+                {}
+            ).addTo(map_494919a39bdc456db294cfcd1a0e441d);
+        
+    
+            var icon_7a84dba0b249400bb4a98eee42a94952 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5295c28a046c452298d90fe99df9ec92.setIcon(icon_7a84dba0b249400bb4a98eee42a94952);
+        
+    
+        var popup_faa0ca9188d14ef39c413b2cd1e9a2b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_284618b3c6754b12ac66a1348d994436 = $(`<div id="html_284618b3c6754b12ac66a1348d994436" style="width: 100.0%; height: 100.0%;">Occupancy: 1-40                     Price: $443/mth</div>`)[0];
+            popup_faa0ca9188d14ef39c413b2cd1e9a2b6.setContent(html_284618b3c6754b12ac66a1348d994436);
+        
+
+        marker_5295c28a046c452298d90fe99df9ec92.bindPopup(popup_faa0ca9188d14ef39c413b2cd1e9a2b6)
+        ;
+
+        
+    
+    
+            marker_5295c28a046c452298d90fe99df9ec92.bindTooltip(
+                `<div>
+                     Natoma street, San Francisco, 94105
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b44e8442e25d42c2bde72983b2d83927 = L.marker(
+                [37.7875396, -122.400609],
+                {}
+            ).addTo(map_494919a39bdc456db294cfcd1a0e441d);
+        
+    
+            var icon_b5028bea03ce46479eb171d82d170ce8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b44e8442e25d42c2bde72983b2d83927.setIcon(icon_b5028bea03ce46479eb171d82d170ce8);
+        
+    
+        var popup_9399e72c09954b7fa1eea17228d43c67 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a439dc73ce4e4e1693330997d7a6d0f7 = $(`<div id="html_a439dc73ce4e4e1693330997d7a6d0f7" style="width: 100.0%; height: 100.0%;">Occupancy: 41-49                     Price: $53628/mth</div>`)[0];
+            popup_9399e72c09954b7fa1eea17228d43c67.setContent(html_a439dc73ce4e4e1693330997d7a6d0f7);
+        
+
+        marker_b44e8442e25d42c2bde72983b2d83927.bindPopup(popup_9399e72c09954b7fa1eea17228d43c67)
+        ;
+
+        
+    
+    
+            marker_b44e8442e25d42c2bde72983b2d83927.bindTooltip(
+                `<div>
+                     New Montgomery Street, San Francisco, 94103
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c5ae05cf05974c4fb109eb6352f3d5cc = L.marker(
+                [37.7873699, -122.4026192],
+                {}
+            ).addTo(map_494919a39bdc456db294cfcd1a0e441d);
+        
+    
+            var icon_7114e106424d430f8299cdb9016ba2de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c5ae05cf05974c4fb109eb6352f3d5cc.setIcon(icon_7114e106424d430f8299cdb9016ba2de);
+        
+    
+        var popup_9beec8cf468344b48fbba49963a8de9c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3d5a06840724e5393eede6be8ea6548 = $(`<div id="html_d3d5a06840724e5393eede6be8ea6548" style="width: 100.0%; height: 100.0%;">Occupancy: 5-22                     Price: $2665/mth</div>`)[0];
+            popup_9beec8cf468344b48fbba49963a8de9c.setContent(html_d3d5a06840724e5393eede6be8ea6548);
+        
+
+        marker_c5ae05cf05974c4fb109eb6352f3d5cc.bindPopup(popup_9beec8cf468344b48fbba49963a8de9c)
+        ;
+
+        
+    
+    
+            marker_c5ae05cf05974c4fb109eb6352f3d5cc.bindTooltip(
+                `<div>
+                     Market St. , San Francisco, 94130
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_24bf93bf7c5c4e67bae7a55e993778cf = L.marker(
+                [37.7889907, -122.4007748],
+                {}
+            ).addTo(map_494919a39bdc456db294cfcd1a0e441d);
+        
+    
+            var icon_3930fb2145484cf19cd9543d1d1334c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_24bf93bf7c5c4e67bae7a55e993778cf.setIcon(icon_3930fb2145484cf19cd9543d1d1334c9);
+        
+    
+        var popup_685b6147272a4adfb68386fcfabfcb8e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_43e0eff794b04a75aaff7a48025e4d30 = $(`<div id="html_43e0eff794b04a75aaff7a48025e4d30" style="width: 100.0%; height: 100.0%;">Occupancy: 2-21                     Price: $2000/mth</div>`)[0];
+            popup_685b6147272a4adfb68386fcfabfcb8e.setContent(html_43e0eff794b04a75aaff7a48025e4d30);
+        
+
+        marker_24bf93bf7c5c4e67bae7a55e993778cf.bindPopup(popup_685b6147272a4adfb68386fcfabfcb8e)
+        ;
+
+        
+    
+    
+            marker_24bf93bf7c5c4e67bae7a55e993778cf.bindTooltip(
+                `<div>
+                     Mission Street, San Francisco, 94105
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_285c8925a70842daaace84721376f959 = L.marker(
+                [37.7889907, -122.4007748],
+                {}
+            ).addTo(map_494919a39bdc456db294cfcd1a0e441d);
+        
+    
+            var icon_060345a996474732a91acdfb846745a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_285c8925a70842daaace84721376f959.setIcon(icon_060345a996474732a91acdfb846745a9);
+        
+    
+        var popup_d48ec321c1e14c2fb4f5032a30cf413c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fddfd095406c4ef1ae3b7112e496ce39 = $(`<div id="html_fddfd095406c4ef1ae3b7112e496ce39" style="width: 100.0%; height: 100.0%;">Occupancy: 2-21                     Price: $2000/mth</div>`)[0];
+            popup_d48ec321c1e14c2fb4f5032a30cf413c.setContent(html_fddfd095406c4ef1ae3b7112e496ce39);
+        
+
+        marker_285c8925a70842daaace84721376f959.bindPopup(popup_d48ec321c1e14c2fb4f5032a30cf413c)
+        ;
+
+        
+    
+    
+            marker_285c8925a70842daaace84721376f959.bindTooltip(
+                `<div>
+                     Mission Street, San Francisco, 94105
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_705e82b14fd44dd2a7c11e7506eaf9b2 = L.marker(
+                [37.7889907, -122.4007748],
+                {}
+            ).addTo(map_494919a39bdc456db294cfcd1a0e441d);
+        
+    
+            var icon_51b7aa47645d4aa58119f5fd46495e97 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_705e82b14fd44dd2a7c11e7506eaf9b2.setIcon(icon_51b7aa47645d4aa58119f5fd46495e97);
+        
+    
+        var popup_cf16380adc7d40599eeea928c5b85b7e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad33aa4c6d42411e836e3d10126e99f0 = $(`<div id="html_ad33aa4c6d42411e836e3d10126e99f0" style="width: 100.0%; height: 100.0%;">Occupancy: 1-100                     Price: $1350/mth</div>`)[0];
+            popup_cf16380adc7d40599eeea928c5b85b7e.setContent(html_ad33aa4c6d42411e836e3d10126e99f0);
+        
+
+        marker_705e82b14fd44dd2a7c11e7506eaf9b2.bindPopup(popup_cf16380adc7d40599eeea928c5b85b7e)
+        ;
+
+        
+    
+    
+            marker_705e82b14fd44dd2a7c11e7506eaf9b2.bindTooltip(
+                `<div>
+                     Mission Street, San Francisco, 94105
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3dc863b3a21248a59b3bfe3462195a41 = L.marker(
+                [37.7889907, -122.4007748],
+                {}
+            ).addTo(map_494919a39bdc456db294cfcd1a0e441d);
+        
+    
+            var icon_d2f00f3400e84f399754a180538b30ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3dc863b3a21248a59b3bfe3462195a41.setIcon(icon_d2f00f3400e84f399754a180538b30ee);
+        
+    
+        var popup_61987ffdf8a846a685111d894fa7c2bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a6cc29bde964590b707441e02b8776f = $(`<div id="html_6a6cc29bde964590b707441e02b8776f" style="width: 100.0%; height: 100.0%;">Occupancy: 1-100                     Price: $1350/mth</div>`)[0];
+            popup_61987ffdf8a846a685111d894fa7c2bb.setContent(html_6a6cc29bde964590b707441e02b8776f);
+        
+
+        marker_3dc863b3a21248a59b3bfe3462195a41.bindPopup(popup_61987ffdf8a846a685111d894fa7c2bb)
+        ;
+
+        
+    
+    
+            marker_3dc863b3a21248a59b3bfe3462195a41.bindTooltip(
+                `<div>
+                     Mission Street, San Francisco, 94105
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a247aa68d1184400bc9b7522dbbd3bac = L.marker(
+                [37.7889907, -122.4007748],
+                {}
+            ).addTo(map_494919a39bdc456db294cfcd1a0e441d);
+        
+    
+            var icon_db70f73ea7b2499ba8bc99e382071b8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a247aa68d1184400bc9b7522dbbd3bac.setIcon(icon_db70f73ea7b2499ba8bc99e382071b8e);
+        
+    
+        var popup_f0cd8bc5c0a847af92b76f48c743f6be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a2e7a59a8f9451293d8e9779a31599d = $(`<div id="html_6a2e7a59a8f9451293d8e9779a31599d" style="width: 100.0%; height: 100.0%;">Occupancy: 1-100                     Price: $1022/mth</div>`)[0];
+            popup_f0cd8bc5c0a847af92b76f48c743f6be.setContent(html_6a2e7a59a8f9451293d8e9779a31599d);
+        
+
+        marker_a247aa68d1184400bc9b7522dbbd3bac.bindPopup(popup_f0cd8bc5c0a847af92b76f48c743f6be)
+        ;
+
+        
+    
+    
+            marker_a247aa68d1184400bc9b7522dbbd3bac.bindTooltip(
+                `<div>
+                     Market Street, San Francisco, 94105
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d8c83fb3023045978f85f6d27520b276 = L.marker(
+                [37.790728, -122.4017771],
+                {}
+            ).addTo(map_494919a39bdc456db294cfcd1a0e441d);
+        
+    
+            var icon_214d81a8a9074e1c88675954d9b5dba3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d8c83fb3023045978f85f6d27520b276.setIcon(icon_214d81a8a9074e1c88675954d9b5dba3);
+        
+    
+        var popup_9a7ebca8fdbc45b2ae0d56c174e81176 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08a7ebf14aec4eaeabdc9c258e4819ef = $(`<div id="html_08a7ebf14aec4eaeabdc9c258e4819ef" style="width: 100.0%; height: 100.0%;">Occupancy: 4-30                     Price: $3625/mth</div>`)[0];
+            popup_9a7ebca8fdbc45b2ae0d56c174e81176.setContent(html_08a7ebf14aec4eaeabdc9c258e4819ef);
+        
+
+        marker_d8c83fb3023045978f85f6d27520b276.bindPopup(popup_9a7ebca8fdbc45b2ae0d56c174e81176)
+        ;
+
+        
+    
+    
+            marker_d8c83fb3023045978f85f6d27520b276.bindTooltip(
+                `<div>
+                     Market Street, San Francisco, 94104
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b1ac7ebb6796459bbd96ab78ff6c2d26 = L.marker(
+                [37.7885979, -122.404472],
+                {}
+            ).addTo(map_494919a39bdc456db294cfcd1a0e441d);
+        
+    
+            var icon_816a6284682645c681107b533b67f405 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b1ac7ebb6796459bbd96ab78ff6c2d26.setIcon(icon_816a6284682645c681107b533b67f405);
+        
+    
+        var popup_5f957f1671734c04901c9a654c85192b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b3059467df44867af39be5016b18482 = $(`<div id="html_9b3059467df44867af39be5016b18482" style="width: 100.0%; height: 100.0%;">Occupancy: 10-24                     Price: $8430/mth</div>`)[0];
+            popup_5f957f1671734c04901c9a654c85192b.setContent(html_9b3059467df44867af39be5016b18482);
+        
+
+        marker_b1ac7ebb6796459bbd96ab78ff6c2d26.bindPopup(popup_5f957f1671734c04901c9a654c85192b)
+        ;
+
+        
+    
+    
+            marker_b1ac7ebb6796459bbd96ab78ff6c2d26.bindTooltip(
+                `<div>
+                     Geary St, San Francisco, 94108
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0002cd851a7b43b1b49728a77ea9dc68 = L.marker(
+                [37.7872661, -122.411257],
+                {}
+            ).addTo(map_494919a39bdc456db294cfcd1a0e441d);
+        
+    
+            var icon_bdd042c56dbc4facbf08021bd57092d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0002cd851a7b43b1b49728a77ea9dc68.setIcon(icon_bdd042c56dbc4facbf08021bd57092d0);
+        
+    
+        var popup_cb8e366bcaa6430baf7d19193d32dbea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac0f75c0638544efbd53f544f146c35a = $(`<div id="html_ac0f75c0638544efbd53f544f146c35a" style="width: 100.0%; height: 100.0%;">Occupancy: 1-50                     Price: $813/mth</div>`)[0];
+            popup_cb8e366bcaa6430baf7d19193d32dbea.setContent(html_ac0f75c0638544efbd53f544f146c35a);
+        
+
+        marker_0002cd851a7b43b1b49728a77ea9dc68.bindPopup(popup_cb8e366bcaa6430baf7d19193d32dbea)
+        ;
+
+        
+    
+    
+            marker_0002cd851a7b43b1b49728a77ea9dc68.bindTooltip(
+                `<div>
+                     Montgomery Street, San Francisco, 94104
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8b646d02d7fc4789aa62631e56f900a9 = L.marker(
+                [37.79183, -122.4047784],
+                {}
+            ).addTo(map_494919a39bdc456db294cfcd1a0e441d);
+        
+    
+            var icon_1485733df5ad4628b7f58265dabd8782 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8b646d02d7fc4789aa62631e56f900a9.setIcon(icon_1485733df5ad4628b7f58265dabd8782);
+        
+    
+        var popup_41ccf736ac134c2fa1170f02f32350b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f7eab58a1a84c3394bc83f8fe53fd5c = $(`<div id="html_2f7eab58a1a84c3394bc83f8fe53fd5c" style="width: 100.0%; height: 100.0%;">Occupancy: 1-50                     Price: $987/mth</div>`)[0];
+            popup_41ccf736ac134c2fa1170f02f32350b4.setContent(html_2f7eab58a1a84c3394bc83f8fe53fd5c);
+        
+
+        marker_8b646d02d7fc4789aa62631e56f900a9.bindPopup(popup_41ccf736ac134c2fa1170f02f32350b4)
+        ;
+
+        
+    
+    
+            marker_8b646d02d7fc4789aa62631e56f900a9.bindTooltip(
+                `<div>
+                     Spear Street, San Francisco, 94105
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a7c6f9190f8f49cc9b08898c4809d4ff = L.marker(
+                [37.7908136, -122.394077],
+                {}
+            ).addTo(map_494919a39bdc456db294cfcd1a0e441d);
+        
+    
+            var icon_6325ed2eee194fa08c4a2c9b1696f97b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a7c6f9190f8f49cc9b08898c4809d4ff.setIcon(icon_6325ed2eee194fa08c4a2c9b1696f97b);
+        
+    
+        var popup_a1c1aa84603442f78f5f0718c27fa2ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e334bc13c5724d9695976b239ebcc0e4 = $(`<div id="html_e334bc13c5724d9695976b239ebcc0e4" style="width: 100.0%; height: 100.0%;">Occupancy: 4-33                     Price: $4598/mth</div>`)[0];
+            popup_a1c1aa84603442f78f5f0718c27fa2ba.setContent(html_e334bc13c5724d9695976b239ebcc0e4);
+        
+
+        marker_a7c6f9190f8f49cc9b08898c4809d4ff.bindPopup(popup_a1c1aa84603442f78f5f0718c27fa2ba)
+        ;
+
+        
+    
+    
+            marker_a7c6f9190f8f49cc9b08898c4809d4ff.bindTooltip(
+                `<div>
+                     Bush Street, San Francisco, 94104
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c1c8e9412c1c4d05b6d02fe5cfe7275b = L.marker(
+                [37.7911916, -122.4029712],
+                {}
+            ).addTo(map_494919a39bdc456db294cfcd1a0e441d);
+        
+    
+            var icon_aa03602a88ac41dd9db86c3569699bf3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c1c8e9412c1c4d05b6d02fe5cfe7275b.setIcon(icon_aa03602a88ac41dd9db86c3569699bf3);
+        
+    
+        var popup_aa3b6fe8551a4fa9aae8bde932be1ebe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5224ce84e64c451b995acbd93ad6e6b9 = $(`<div id="html_5224ce84e64c451b995acbd93ad6e6b9" style="width: 100.0%; height: 100.0%;">Occupancy: 30-36                     Price: $32970/mth</div>`)[0];
+            popup_aa3b6fe8551a4fa9aae8bde932be1ebe.setContent(html_5224ce84e64c451b995acbd93ad6e6b9);
+        
+
+        marker_c1c8e9412c1c4d05b6d02fe5cfe7275b.bindPopup(popup_aa3b6fe8551a4fa9aae8bde932be1ebe)
+        ;
+
+        
+    
+    
+            marker_c1c8e9412c1c4d05b6d02fe5cfe7275b.bindTooltip(
+                `<div>
+                     Sutter Street, San Francisco, 94108
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a4db8c541e704d8dbdca4eec28512a46 = L.marker(
+                [37.7891778, -122.4112123],
+                {}
+            ).addTo(map_494919a39bdc456db294cfcd1a0e441d);
+        
+    
+            var icon_ea3315aef4cc4834be4eaef704c20cd8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a4db8c541e704d8dbdca4eec28512a46.setIcon(icon_ea3315aef4cc4834be4eaef704c20cd8);
+        
+    
+        var popup_59257484d84a4d06874439ff8b89d27a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04a9a6f03dd74ae78d026a687f4fb267 = $(`<div id="html_04a9a6f03dd74ae78d026a687f4fb267" style="width: 100.0%; height: 100.0%;">Occupancy: 1-28                     Price: $290/mth</div>`)[0];
+            popup_59257484d84a4d06874439ff8b89d27a.setContent(html_04a9a6f03dd74ae78d026a687f4fb267);
+        
+
+        marker_a4db8c541e704d8dbdca4eec28512a46.bindPopup(popup_59257484d84a4d06874439ff8b89d27a)
+        ;
+
+        
+    
+    
+            marker_a4db8c541e704d8dbdca4eec28512a46.bindTooltip(
+                `<div>
+                     Montgomery Street, San Francisco, San Francisco, 94104
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cdc9521d5513485f930e3f179585089b = L.marker(
+                [37.7726508, -122.4172046],
+                {}
+            ).addTo(map_494919a39bdc456db294cfcd1a0e441d);
+        
+    
+            var icon_eb2b4803c3974753aac73be1103d0c6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cdc9521d5513485f930e3f179585089b.setIcon(icon_eb2b4803c3974753aac73be1103d0c6a);
+        
+    
+        var popup_32a97b945e264289a345b262edfe1dbd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18902d94c38f43d58cba1c5d1df63b8f = $(`<div id="html_18902d94c38f43d58cba1c5d1df63b8f" style="width: 100.0%; height: 100.0%;">Occupancy: 1-100                     Price: $595/mth</div>`)[0];
+            popup_32a97b945e264289a345b262edfe1dbd.setContent(html_18902d94c38f43d58cba1c5d1df63b8f);
+        
+
+        marker_cdc9521d5513485f930e3f179585089b.bindPopup(popup_32a97b945e264289a345b262edfe1dbd)
+        ;
+
+        
+    
+    
+            marker_cdc9521d5513485f930e3f179585089b.bindTooltip(
+                `<div>
+                     11th Street, San Francisco, 94103
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ca53799557ad4597a1e232298bf21247 = L.marker(
+                [37.7980534, -122.4060321],
+                {}
+            ).addTo(map_494919a39bdc456db294cfcd1a0e441d);
+        
+    
+            var icon_9de983a25b3648f191d176dd0a48a239 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ca53799557ad4597a1e232298bf21247.setIcon(icon_9de983a25b3648f191d176dd0a48a239);
+        
+    
+        var popup_d4e12dc3592f41dd9070f4e42eaf3fd3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fce6efc9c67744f98d8917d788fd14d4 = $(`<div id="html_fce6efc9c67744f98d8917d788fd14d4" style="width: 100.0%; height: 100.0%;">Occupancy: 15-34                     Price: $15000/mth</div>`)[0];
+            popup_d4e12dc3592f41dd9070f4e42eaf3fd3.setContent(html_fce6efc9c67744f98d8917d788fd14d4);
+        
+
+        marker_ca53799557ad4597a1e232298bf21247.bindPopup(popup_d4e12dc3592f41dd9070f4e42eaf3fd3)
+        ;
+
+        
+    
+    
+            marker_ca53799557ad4597a1e232298bf21247.bindTooltip(
+                `<div>
+                     Montgomery Street, San Francisco, 94111
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5051788c069f434f86c839f196cff629 = L.marker(
+                [37.7980534, -122.4060321],
+                {}
+            ).addTo(map_494919a39bdc456db294cfcd1a0e441d);
+        
+    
+            var icon_c673ec47b6e9451b8897c0971e85a377 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5051788c069f434f86c839f196cff629.setIcon(icon_c673ec47b6e9451b8897c0971e85a377);
+        
+    
+        var popup_4de96aed4ff14bb2859266605571604d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88cb24ad37c94e1cb2f9e027f86158bf = $(`<div id="html_88cb24ad37c94e1cb2f9e027f86158bf" style="width: 100.0%; height: 100.0%;">Occupancy: 1-50                     Price: $507/mth</div>`)[0];
+            popup_4de96aed4ff14bb2859266605571604d.setContent(html_88cb24ad37c94e1cb2f9e027f86158bf);
+        
+
+        marker_5051788c069f434f86c839f196cff629.bindPopup(popup_4de96aed4ff14bb2859266605571604d)
+        ;
+
+        
+    
+    
+            marker_5051788c069f434f86c839f196cff629.bindTooltip(
+                `<div>
+                     California Street, Financial District, San Francisco, 94104
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e6fe43451a97442aa88861dcb3724c50 = L.marker(
+                [37.7930319, -122.4036806],
+                {}
+            ).addTo(map_494919a39bdc456db294cfcd1a0e441d);
+        
+    
+            var icon_a07f8a93348441adb70db577c723ca44 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e6fe43451a97442aa88861dcb3724c50.setIcon(icon_a07f8a93348441adb70db577c723ca44);
+        
+    
+        var popup_3773227ca1ff4cc6a4f4e8649fe19446 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9dc444c1f4c945418e07130c6f5eec5e = $(`<div id="html_9dc444c1f4c945418e07130c6f5eec5e" style="width: 100.0%; height: 100.0%;">Occupancy: 1-50                     Price: $544/mth</div>`)[0];
+            popup_3773227ca1ff4cc6a4f4e8649fe19446.setContent(html_9dc444c1f4c945418e07130c6f5eec5e);
+        
+
+        marker_e6fe43451a97442aa88861dcb3724c50.bindPopup(popup_3773227ca1ff4cc6a4f4e8649fe19446)
+        ;
+
+        
+    
+    
+            marker_e6fe43451a97442aa88861dcb3724c50.bindTooltip(
+                `<div>
+                     Embarcadero Center, Financial District, San Francisco, San Francisco, 94111
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_598e8434ffe74de59fea4a3aed59d86c = L.marker(
+                [37.7946083, -122.3987301],
+                {}
+            ).addTo(map_494919a39bdc456db294cfcd1a0e441d);
+        
+    
+            var icon_daf107db483d466b8f7454512c31aba5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_598e8434ffe74de59fea4a3aed59d86c.setIcon(icon_daf107db483d466b8f7454512c31aba5);
+        
+    
+        var popup_60b73420f65842818b4fb58265e81426 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3bdcc7e3b4445d487003b92d3895c8f = $(`<div id="html_f3bdcc7e3b4445d487003b92d3895c8f" style="width: 100.0%; height: 100.0%;">Occupancy: 30-36                     Price: $35220/mth</div>`)[0];
+            popup_60b73420f65842818b4fb58265e81426.setContent(html_f3bdcc7e3b4445d487003b92d3895c8f);
+        
+
+        marker_598e8434ffe74de59fea4a3aed59d86c.bindPopup(popup_60b73420f65842818b4fb58265e81426)
+        ;
+
+        
+    
+    
+            marker_598e8434ffe74de59fea4a3aed59d86c.bindTooltip(
+                `<div>
+                     Commercial Street, San Francisco, 94111
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bab912bd9c0b4ab09146a48d6919410b = L.marker(
+                [37.7942914, -122.404886],
+                {}
+            ).addTo(map_494919a39bdc456db294cfcd1a0e441d);
+        
+    
+            var icon_34ef42153bee488b9b021957874e3b4a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bab912bd9c0b4ab09146a48d6919410b.setIcon(icon_34ef42153bee488b9b021957874e3b4a);
+        
+    
+        var popup_648b3961d912430d94a966a9306fee4b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_013f31fbccd24eb5a8cac3c3f0385027 = $(`<div id="html_013f31fbccd24eb5a8cac3c3f0385027" style="width: 100.0%; height: 100.0%;">Occupancy: 1-50                     Price: $528/mth</div>`)[0];
+            popup_648b3961d912430d94a966a9306fee4b.setContent(html_013f31fbccd24eb5a8cac3c3f0385027);
+        
+
+        marker_bab912bd9c0b4ab09146a48d6919410b.bindPopup(popup_648b3961d912430d94a966a9306fee4b)
+        ;
+
+        
+    
+    
+            marker_bab912bd9c0b4ab09146a48d6919410b.bindTooltip(
+                `<div>
+                     Montgomery Street , San Francisco, 94111
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a0295bb538524d009f81d0b947b95fe2 = L.marker(
+                [37.7783494, -122.4142472],
+                {}
+            ).addTo(map_494919a39bdc456db294cfcd1a0e441d);
+        
+    
+            var icon_7ba75be006cb462aaa6a8080155f8518 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a0295bb538524d009f81d0b947b95fe2.setIcon(icon_7ba75be006cb462aaa6a8080155f8518);
+        
+    
+        var popup_c1d9890add364eba8c0a76885dee16bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cbadce46464d4e2697d2e5aa6e509253 = $(`<div id="html_cbadce46464d4e2697d2e5aa6e509253" style="width: 100.0%; height: 100.0%;">Occupancy: 1-100                     Price: $580/mth</div>`)[0];
+            popup_c1d9890add364eba8c0a76885dee16bb.setContent(html_cbadce46464d4e2697d2e5aa6e509253);
+        
+
+        marker_a0295bb538524d009f81d0b947b95fe2.bindPopup(popup_c1d9890add364eba8c0a76885dee16bb)
+        ;
+
+        
+    
+    
+            marker_a0295bb538524d009f81d0b947b95fe2.bindTooltip(
+                `<div>
+                     Mission St, San Francisco, 94103
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d286f12954b5428b8a9a159992dd0d09 = L.marker(
+                [37.7974706, -122.4030252],
+                {}
+            ).addTo(map_494919a39bdc456db294cfcd1a0e441d);
+        
+    
+            var icon_13db9cbd263d4eed854f51246ac5742c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d286f12954b5428b8a9a159992dd0d09.setIcon(icon_13db9cbd263d4eed854f51246ac5742c);
+        
+    
+        var popup_5dc3eb5bbf4f4a52a979e96c80999016 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8efcbb70b81b4f3792614ffca92a949d = $(`<div id="html_8efcbb70b81b4f3792614ffca92a949d" style="width: 100.0%; height: 100.0%;">Occupancy: 1-99                     Price: $300/mth</div>`)[0];
+            popup_5dc3eb5bbf4f4a52a979e96c80999016.setContent(html_8efcbb70b81b4f3792614ffca92a949d);
+        
+
+        marker_d286f12954b5428b8a9a159992dd0d09.bindPopup(popup_5dc3eb5bbf4f4a52a979e96c80999016)
+        ;
+
+        
+    
+    
+            marker_d286f12954b5428b8a9a159992dd0d09.bindTooltip(
+                `<div>
+                     Battery Street East , San Francisco, 94111
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9ad3da8bbc244044b02805e4d717056e = L.marker(
+                [37.7974706, -122.4030252],
+                {}
+            ).addTo(map_494919a39bdc456db294cfcd1a0e441d);
+        
+    
+            var icon_fbdb4aa44b0e4ef0b6784ecdae4b26aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9ad3da8bbc244044b02805e4d717056e.setIcon(icon_fbdb4aa44b0e4ef0b6784ecdae4b26aa);
+        
+    
+        var popup_d371cda8212d454b85ccbd78fba49606 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7cf090b8fa4475f87d5d8f53b840daa = $(`<div id="html_c7cf090b8fa4475f87d5d8f53b840daa" style="width: 100.0%; height: 100.0%;">Occupancy: 1-50                     Price: $872/mth</div>`)[0];
+            popup_d371cda8212d454b85ccbd78fba49606.setContent(html_c7cf090b8fa4475f87d5d8f53b840daa);
+        
+
+        marker_9ad3da8bbc244044b02805e4d717056e.bindPopup(popup_d371cda8212d454b85ccbd78fba49606)
+        ;
+
+        
+    
+    
+            marker_9ad3da8bbc244044b02805e4d717056e.bindTooltip(
+                `<div>
+                     Montgomery Street, Telegraph Hill, San Francisco, San Francisco, 94111
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_877c0a4baf22463d9ce4e70768952925 = L.marker(
+                [37.8016902, -122.4068222],
+                {}
+            ).addTo(map_494919a39bdc456db294cfcd1a0e441d);
+        
+    
+            var icon_77c16cd92aa647cfa1e1f6911fd9597a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_877c0a4baf22463d9ce4e70768952925.setIcon(icon_77c16cd92aa647cfa1e1f6911fd9597a);
+        
+    
+        var popup_e0079da95868401c950b777377fcb9c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c12db8757f8340b18632bb0b2a8a8011 = $(`<div id="html_c12db8757f8340b18632bb0b2a8a8011" style="width: 100.0%; height: 100.0%;">Occupancy: 1-100                     Price: $805/mth</div>`)[0];
+            popup_e0079da95868401c950b777377fcb9c1.setContent(html_c12db8757f8340b18632bb0b2a8a8011);
+        
+
+        marker_877c0a4baf22463d9ce4e70768952925.bindPopup(popup_e0079da95868401c950b777377fcb9c1)
+        ;
+
+        
+    
+    
+            marker_877c0a4baf22463d9ce4e70768952925.bindTooltip(
+                `<div>
+                     Montgomery St, San Francisco, 94111
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var heat_map_7c7085e15b514b499694ea3939f42c8c = L.heatLayer(
+                [[37.788482, -122.409173], [37.392936, -122.07948], [37.757758, -122.388243], [37.780716, -122.393913], [37.793819, -122.395089], [37.788668, -122.400558], [37.787092, -122.399972], [37.437328, -122.159928], [37.780134, -122.396744], [37.786942, -122.401245], [37.781557, -122.407959], [37.782263, -122.392142], [37.781265, -122.393229], [37.783898, -122.395234], [37.790346, -122.40185], [37.775196, -122.419204], [37.765158, -122.404234], [37.775196, -122.419204], [37.775196, -122.419204], [37.756922, -122.42087], [37.7893215, -122.4013624], [37.3944561, -122.0785314], [37.777513, -122.397044], [37.781689, -122.391061], [37.775196, -122.419204], [37.786393, -122.3987745], [37.791391, -122.402859], [37.780134, -122.396744], [37.786906, -122.397672], [37.7705096, -122.4015807], [37.783046, -122.394067], [37.80204, -122.438231], [37.783046, -122.394067], [37.80204, -122.438231], [37.804619, -122.371203], [37.775196, -122.419204], [37.420728, -122.2103414], [37.77772, -122.395785], [37.8448035, -122.290897], [37.781386, -122.421406], [37.8053241, -122.4052761], [37.7905538, -122.4041485], [37.775196, -122.419204], [55.6924605, 12.530107], [37.7875304, -122.3989996], [37.8093381, -122.4166061], [37.787646, -122.402759], [37.764169, -122.402021], [37.7841737, -122.4494082]],
+                {"blur": 15, "max": 1.0, "maxZoom": 18, "minOpacity": 0.5, "radius": 20}
+            ).addTo(map_494919a39bdc456db294cfcd1a0e441d);
+        
+</script>

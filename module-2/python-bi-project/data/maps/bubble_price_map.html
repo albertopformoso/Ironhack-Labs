@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d274a924993a42ea934260fa7b297e34 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_d274a924993a42ea934260fa7b297e34" ></div>
+        
+</body>
+<script>    
+    
+            var map_d274a924993a42ea934260fa7b297e34 = L.map(
+                "map_d274a924993a42ea934260fa7b297e34",
+                {
+                    center: [37.789078, -122.405578],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_90d50af8e49b42198e9ab0ffa002eca0 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d274a924993a42ea934260fa7b297e34);
+        
+    
+            var circle_b375ff4230df435ba8251ea30db8c9bc = L.circle(
+                [37.7785548, -122.4034342],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.46, "stroke": true, "weight": 3}
+            ).addTo(map_d274a924993a42ea934260fa7b297e34);
+        
+    
+        var popup_dd5839cc470948f082bc228c31dc81ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2425ba2980234097aeffb5b6160de6af = $(`<div id="html_2425ba2980234097aeffb5b6160de6af" style="width: 100.0%; height: 100.0%;">Occupancy: 6-29                     Price: $4638/mth</div>`)[0];
+            popup_dd5839cc470948f082bc228c31dc81ea.setContent(html_2425ba2980234097aeffb5b6160de6af);
+        
+
+        circle_b375ff4230df435ba8251ea30db8c9bc.bindPopup(popup_dd5839cc470948f082bc228c31dc81ea)
+        ;
+
+        
+    
+    
+            var circle_f4c9c351308a46388727e94ac98e43f7 = L.circle(
+                [37.7785548, -122.4034342],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.333333333333333, "stroke": true, "weight": 3}
+            ).addTo(map_d274a924993a42ea934260fa7b297e34);
+        
+    
+        var popup_d3ab3d73799c45469b8d6ec6f7d5216e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0bb12cf9c9cb42a9a0e5005b8ac6acbf = $(`<div id="html_0bb12cf9c9cb42a9a0e5005b8ac6acbf" style="width: 100.0%; height: 100.0%;">Occupancy: 1-100                     Price: $1300/mth</div>`)[0];
+            popup_d3ab3d73799c45469b8d6ec6f7d5216e.setContent(html_0bb12cf9c9cb42a9a0e5005b8ac6acbf);
+        
+
+        circle_f4c9c351308a46388727e94ac98e43f7.bindPopup(popup_d3ab3d73799c45469b8d6ec6f7d5216e)
+        ;
+
+        
+    
+    
+            var circle_9500d95565d246779e56d26086b8bb06 = L.circle(
+                [37.779634, -122.4002044],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 118.52666666666667, "stroke": true, "weight": 3}
+            ).addTo(map_d274a924993a42ea934260fa7b297e34);
+        
+    
+        var popup_ba800621ea75464ebf00993feeef3d9e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0630d7ea8c440eabfe108e97dbd4f9a = $(`<div id="html_e0630d7ea8c440eabfe108e97dbd4f9a" style="width: 100.0%; height: 100.0%;">Occupancy: 46-55                     Price: $35558/mth</div>`)[0];
+            popup_ba800621ea75464ebf00993feeef3d9e.setContent(html_e0630d7ea8c440eabfe108e97dbd4f9a);
+        
+
+        circle_9500d95565d246779e56d26086b8bb06.bindPopup(popup_ba800621ea75464ebf00993feeef3d9e)
+        ;
+
+        
+    
+    
+            var circle_f59e22f9f3aa457a90be861bb1d77740 = L.circle(
+                [37.7821754, -122.4032172],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5333333333333334, "stroke": true, "weight": 3}
+            ).addTo(map_d274a924993a42ea934260fa7b297e34);
+        
+    
+        var popup_c5d2ac7476e44b419a9ac7fdb4ce032d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5bc70fd0943430790ea3ae2e4ad6f03 = $(`<div id="html_d5bc70fd0943430790ea3ae2e4ad6f03" style="width: 100.0%; height: 100.0%;">Occupancy: 1-50                     Price: $460/mth</div>`)[0];
+            popup_c5d2ac7476e44b419a9ac7fdb4ce032d.setContent(html_d5bc70fd0943430790ea3ae2e4ad6f03);
+        
+
+        circle_f59e22f9f3aa457a90be861bb1d77740.bindPopup(popup_c5d2ac7476e44b419a9ac7fdb4ce032d)
+        ;
+
+        
+    
+    
+            var circle_de07795961fa4e9e8af238f0d7fc0f7b = L.circle(
+                [37.7821754, -122.4032172],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24.63, "stroke": true, "weight": 3}
+            ).addTo(map_d274a924993a42ea934260fa7b297e34);
+        
+    
+        var popup_7f73a4b1c49b45d9a98657dbfb6a1dd2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10e15d91f6f940db9d77ac283c6ddd7a = $(`<div id="html_10e15d91f6f940db9d77ac283c6ddd7a" style="width: 100.0%; height: 100.0%;">Occupancy: 9-50                     Price: $7389/mth</div>`)[0];
+            popup_7f73a4b1c49b45d9a98657dbfb6a1dd2.setContent(html_10e15d91f6f940db9d77ac283c6ddd7a);
+        
+
+        circle_de07795961fa4e9e8af238f0d7fc0f7b.bindPopup(popup_7f73a4b1c49b45d9a98657dbfb6a1dd2)
+        ;
+
+        
+    
+    
+            var circle_9974e007c53a4eebad8c74a8ddfb91c2 = L.circle(
+                [37.7835587, -122.3941324],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 72.91666666666667, "stroke": true, "weight": 3}
+            ).addTo(map_d274a924993a42ea934260fa7b297e34);
+        
+    
+        var popup_6f82492f38ea4a78b0f06a59f1510cc3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0eb7f068004f448a8dd3d2ce92dfc0fd = $(`<div id="html_0eb7f068004f448a8dd3d2ce92dfc0fd" style="width: 100.0%; height: 100.0%;">Occupancy: 25-30                     Price: $21875/mth</div>`)[0];
+            popup_6f82492f38ea4a78b0f06a59f1510cc3.setContent(html_0eb7f068004f448a8dd3d2ce92dfc0fd);
+        
+
+        circle_9974e007c53a4eebad8c74a8ddfb91c2.bindPopup(popup_6f82492f38ea4a78b0f06a59f1510cc3)
+        ;
+
+        
+    
+    
+            var circle_81618e2300724103b8d562874bfe5eff = L.circle(
+                [37.7807105, -122.4061346],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6666666666666665, "stroke": true, "weight": 3}
+            ).addTo(map_d274a924993a42ea934260fa7b297e34);
+        
+    
+        var popup_50d7993562964687be5c87529b5c6898 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94540dea36714d77a7d831baa80125d2 = $(`<div id="html_94540dea36714d77a7d831baa80125d2" style="width: 100.0%; height: 100.0%;">Occupancy: 1-300                     Price: $800/mth</div>`)[0];
+            popup_50d7993562964687be5c87529b5c6898.setContent(html_94540dea36714d77a7d831baa80125d2);
+        
+
+        circle_81618e2300724103b8d562874bfe5eff.bindPopup(popup_50d7993562964687be5c87529b5c6898)
+        ;
+
+        
+    
+    
+            var circle_459b16dfa0f9486b8816f7562995ddb2 = L.circle(
+                [37.7874603, -122.4027121],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.333333333333333, "stroke": true, "weight": 3}
+            ).addTo(map_d274a924993a42ea934260fa7b297e34);
+        
+    
+        var popup_81828a640c4e47fcaaca13255c9c5fb7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fdb2a757984445a1b91a02ff85a579e4 = $(`<div id="html_fdb2a757984445a1b91a02ff85a579e4" style="width: 100.0%; height: 100.0%;">Occupancy: 4-75                     Price: $2200/mth</div>`)[0];
+            popup_81828a640c4e47fcaaca13255c9c5fb7.setContent(html_fdb2a757984445a1b91a02ff85a579e4);
+        
+
+        circle_459b16dfa0f9486b8816f7562995ddb2.bindPopup(popup_81828a640c4e47fcaaca13255c9c5fb7)
+        ;
+
+        
+    
+    
+            var circle_19e151e914a84b5bb5a55f40478ddca1 = L.circle(
+                [37.7859977, -122.4003979],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.4766666666666666, "stroke": true, "weight": 3}
+            ).addTo(map_d274a924993a42ea934260fa7b297e34);
+        
+    
+        var popup_60ad361598f344e49e7fd517c8a18bf7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cae0a55444a4402a86f8494130101228 = $(`<div id="html_cae0a55444a4402a86f8494130101228" style="width: 100.0%; height: 100.0%;">Occupancy: 1-40                     Price: $443/mth</div>`)[0];
+            popup_60ad361598f344e49e7fd517c8a18bf7.setContent(html_cae0a55444a4402a86f8494130101228);
+        
+
+        circle_19e151e914a84b5bb5a55f40478ddca1.bindPopup(popup_60ad361598f344e49e7fd517c8a18bf7)
+        ;
+
+        
+    
+    
+            var circle_ea430b7c23d44ad8b3a9497794336407 = L.circle(
+                [37.7875396, -122.400609],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 178.76, "stroke": true, "weight": 3}
+            ).addTo(map_d274a924993a42ea934260fa7b297e34);
+        
+    
+        var popup_72d0331bb3b34e938fb374745644fc53 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e8451066b53c41f797e1744aecd3493d = $(`<div id="html_e8451066b53c41f797e1744aecd3493d" style="width: 100.0%; height: 100.0%;">Occupancy: 41-49                     Price: $53628/mth</div>`)[0];
+            popup_72d0331bb3b34e938fb374745644fc53.setContent(html_e8451066b53c41f797e1744aecd3493d);
+        
+
+        circle_ea430b7c23d44ad8b3a9497794336407.bindPopup(popup_72d0331bb3b34e938fb374745644fc53)
+        ;
+
+        
+    
+    
+            var circle_6918ece3af1548219e2160d700ecc776 = L.circle(
+                [37.7873699, -122.4026192],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.883333333333333, "stroke": true, "weight": 3}
+            ).addTo(map_d274a924993a42ea934260fa7b297e34);
+        
+    
+        var popup_eb97be3dcea74e9890325c2939c182ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f407a0f1962e4f3482c4023cfa881b56 = $(`<div id="html_f407a0f1962e4f3482c4023cfa881b56" style="width: 100.0%; height: 100.0%;">Occupancy: 5-22                     Price: $2665/mth</div>`)[0];
+            popup_eb97be3dcea74e9890325c2939c182ee.setContent(html_f407a0f1962e4f3482c4023cfa881b56);
+        
+
+        circle_6918ece3af1548219e2160d700ecc776.bindPopup(popup_eb97be3dcea74e9890325c2939c182ee)
+        ;
+
+        
+    
+    
+            var circle_3105e00f1f6945c6a8c43cceb0e2b868 = L.circle(
+                [37.7889907, -122.4007748],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.666666666666667, "stroke": true, "weight": 3}
+            ).addTo(map_d274a924993a42ea934260fa7b297e34);
+        
+    
+        var popup_27ea21821c8940b29d2c38a9a6a31fc5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1ca4921932941bf9d7bcb5297243c6e = $(`<div id="html_b1ca4921932941bf9d7bcb5297243c6e" style="width: 100.0%; height: 100.0%;">Occupancy: 2-21                     Price: $2000/mth</div>`)[0];
+            popup_27ea21821c8940b29d2c38a9a6a31fc5.setContent(html_b1ca4921932941bf9d7bcb5297243c6e);
+        
+
+        circle_3105e00f1f6945c6a8c43cceb0e2b868.bindPopup(popup_27ea21821c8940b29d2c38a9a6a31fc5)
+        ;
+
+        
+    
+    
+            var circle_a94fdb65aac04589b042fbd2671fd605 = L.circle(
+                [37.7889907, -122.4007748],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.666666666666667, "stroke": true, "weight": 3}
+            ).addTo(map_d274a924993a42ea934260fa7b297e34);
+        
+    
+        var popup_3cbf437b9d6441babeee9e8abd2aeadc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0969de038354a62adff0083ba98adff = $(`<div id="html_e0969de038354a62adff0083ba98adff" style="width: 100.0%; height: 100.0%;">Occupancy: 2-21                     Price: $2000/mth</div>`)[0];
+            popup_3cbf437b9d6441babeee9e8abd2aeadc.setContent(html_e0969de038354a62adff0083ba98adff);
+        
+
+        circle_a94fdb65aac04589b042fbd2671fd605.bindPopup(popup_3cbf437b9d6441babeee9e8abd2aeadc)
+        ;
+
+        
+    
+    
+            var circle_92a25d159d0e42f19dfafba12c0858db = L.circle(
+                [37.7889907, -122.4007748],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.5, "stroke": true, "weight": 3}
+            ).addTo(map_d274a924993a42ea934260fa7b297e34);
+        
+    
+        var popup_a83322e2071e48568bbc314f01485b04 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a0a305c16844f7484bcb8af07f4c5e1 = $(`<div id="html_7a0a305c16844f7484bcb8af07f4c5e1" style="width: 100.0%; height: 100.0%;">Occupancy: 1-100                     Price: $1350/mth</div>`)[0];
+            popup_a83322e2071e48568bbc314f01485b04.setContent(html_7a0a305c16844f7484bcb8af07f4c5e1);
+        
+
+        circle_92a25d159d0e42f19dfafba12c0858db.bindPopup(popup_a83322e2071e48568bbc314f01485b04)
+        ;
+
+        
+    
+    
+            var circle_a898246664e24df0a91fbe066f5760ac = L.circle(
+                [37.7889907, -122.4007748],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.5, "stroke": true, "weight": 3}
+            ).addTo(map_d274a924993a42ea934260fa7b297e34);
+        
+    
+        var popup_ffc5f355aaf441aabcb513343b4098fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff29fee7495448cba40600c8d18ec5d5 = $(`<div id="html_ff29fee7495448cba40600c8d18ec5d5" style="width: 100.0%; height: 100.0%;">Occupancy: 1-100                     Price: $1350/mth</div>`)[0];
+            popup_ffc5f355aaf441aabcb513343b4098fa.setContent(html_ff29fee7495448cba40600c8d18ec5d5);
+        
+
+        circle_a898246664e24df0a91fbe066f5760ac.bindPopup(popup_ffc5f355aaf441aabcb513343b4098fa)
+        ;
+
+        
+    
+    
+            var circle_ac049efaf60643a2ad3b18e3ae754c44 = L.circle(
+                [37.7889907, -122.4007748],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.4066666666666667, "stroke": true, "weight": 3}
+            ).addTo(map_d274a924993a42ea934260fa7b297e34);
+        
+    
+        var popup_485496b7caa24f16a344fb7ae64ef4d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a1d0889db3643c38dc74e010ebbf947 = $(`<div id="html_5a1d0889db3643c38dc74e010ebbf947" style="width: 100.0%; height: 100.0%;">Occupancy: 1-100                     Price: $1022/mth</div>`)[0];
+            popup_485496b7caa24f16a344fb7ae64ef4d0.setContent(html_5a1d0889db3643c38dc74e010ebbf947);
+        
+
+        circle_ac049efaf60643a2ad3b18e3ae754c44.bindPopup(popup_485496b7caa24f16a344fb7ae64ef4d0)
+        ;
+
+        
+    
+    
+            var circle_18b852f16cd94291ae1c3fac92a2fa2b = L.circle(
+                [37.790728, -122.4017771],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.083333333333334, "stroke": true, "weight": 3}
+            ).addTo(map_d274a924993a42ea934260fa7b297e34);
+        
+    
+        var popup_298b86a5883e48c6ba4a7111ac44a487 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a80bde771200493f882af58da886ff8f = $(`<div id="html_a80bde771200493f882af58da886ff8f" style="width: 100.0%; height: 100.0%;">Occupancy: 4-30                     Price: $3625/mth</div>`)[0];
+            popup_298b86a5883e48c6ba4a7111ac44a487.setContent(html_a80bde771200493f882af58da886ff8f);
+        
+
+        circle_18b852f16cd94291ae1c3fac92a2fa2b.bindPopup(popup_298b86a5883e48c6ba4a7111ac44a487)
+        ;
+
+        
+    
+    
+            var circle_720c17cd87b5417c87277afb8a8cb5e5 = L.circle(
+                [37.7885979, -122.404472],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 28.1, "stroke": true, "weight": 3}
+            ).addTo(map_d274a924993a42ea934260fa7b297e34);
+        
+    
+        var popup_76b4862875d24174abdcd115b5a7973b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6901dee9beb94f01a08c755585100bd3 = $(`<div id="html_6901dee9beb94f01a08c755585100bd3" style="width: 100.0%; height: 100.0%;">Occupancy: 10-24                     Price: $8430/mth</div>`)[0];
+            popup_76b4862875d24174abdcd115b5a7973b.setContent(html_6901dee9beb94f01a08c755585100bd3);
+        
+
+        circle_720c17cd87b5417c87277afb8a8cb5e5.bindPopup(popup_76b4862875d24174abdcd115b5a7973b)
+        ;
+
+        
+    
+    
+            var circle_94c97b72673f4720a84df6c220765926 = L.circle(
+                [37.7872661, -122.411257],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.71, "stroke": true, "weight": 3}
+            ).addTo(map_d274a924993a42ea934260fa7b297e34);
+        
+    
+        var popup_531635332eb74208b8b4d9517f166f88 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_93091d2be4124a1289c000c48610fcf0 = $(`<div id="html_93091d2be4124a1289c000c48610fcf0" style="width: 100.0%; height: 100.0%;">Occupancy: 1-50                     Price: $813/mth</div>`)[0];
+            popup_531635332eb74208b8b4d9517f166f88.setContent(html_93091d2be4124a1289c000c48610fcf0);
+        
+
+        circle_94c97b72673f4720a84df6c220765926.bindPopup(popup_531635332eb74208b8b4d9517f166f88)
+        ;
+
+        
+    
+    
+            var circle_7fb0dea5732640cb8bb9869ead4f4d89 = L.circle(
+                [37.79183, -122.4047784],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.29, "stroke": true, "weight": 3}
+            ).addTo(map_d274a924993a42ea934260fa7b297e34);
+        
+    
+        var popup_35ed9d57e7eb4bb19f8982a2468dfb84 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84e09d9fc37f4920866d2c98361b9b3c = $(`<div id="html_84e09d9fc37f4920866d2c98361b9b3c" style="width: 100.0%; height: 100.0%;">Occupancy: 1-50                     Price: $987/mth</div>`)[0];
+            popup_35ed9d57e7eb4bb19f8982a2468dfb84.setContent(html_84e09d9fc37f4920866d2c98361b9b3c);
+        
+
+        circle_7fb0dea5732640cb8bb9869ead4f4d89.bindPopup(popup_35ed9d57e7eb4bb19f8982a2468dfb84)
+        ;
+
+        
+    
+    
+            var circle_beaa51cd88d44c328e98776b022990ca = L.circle(
+                [37.7908136, -122.394077],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.326666666666666, "stroke": true, "weight": 3}
+            ).addTo(map_d274a924993a42ea934260fa7b297e34);
+        
+    
+        var popup_8ed681a22c254606ac75e459e1ab8b82 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9185d070fbfc4760aca639b44d06c4aa = $(`<div id="html_9185d070fbfc4760aca639b44d06c4aa" style="width: 100.0%; height: 100.0%;">Occupancy: 4-33                     Price: $4598/mth</div>`)[0];
+            popup_8ed681a22c254606ac75e459e1ab8b82.setContent(html_9185d070fbfc4760aca639b44d06c4aa);
+        
+
+        circle_beaa51cd88d44c328e98776b022990ca.bindPopup(popup_8ed681a22c254606ac75e459e1ab8b82)
+        ;
+
+        
+    
+    
+            var circle_cea29ffc2323437a861dd97f12ce0643 = L.circle(
+                [37.7911916, -122.4029712],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 109.9, "stroke": true, "weight": 3}
+            ).addTo(map_d274a924993a42ea934260fa7b297e34);
+        
+    
+        var popup_93ab9d684110498c98ed39546549a1a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00cf18bda49a4180b235edec4209923e = $(`<div id="html_00cf18bda49a4180b235edec4209923e" style="width: 100.0%; height: 100.0%;">Occupancy: 30-36                     Price: $32970/mth</div>`)[0];
+            popup_93ab9d684110498c98ed39546549a1a6.setContent(html_00cf18bda49a4180b235edec4209923e);
+        
+
+        circle_cea29ffc2323437a861dd97f12ce0643.bindPopup(popup_93ab9d684110498c98ed39546549a1a6)
+        ;
+
+        
+    
+    
+            var circle_baeac0e922644de7baf108197258b358 = L.circle(
+                [37.7891778, -122.4112123],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.9666666666666667, "stroke": true, "weight": 3}
+            ).addTo(map_d274a924993a42ea934260fa7b297e34);
+        
+    
+        var popup_b458b2d871ff4f258b7cfde006daa9e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0b59eb8b8ef4d8fb7db2af2c1d12458 = $(`<div id="html_e0b59eb8b8ef4d8fb7db2af2c1d12458" style="width: 100.0%; height: 100.0%;">Occupancy: 1-28                     Price: $290/mth</div>`)[0];
+            popup_b458b2d871ff4f258b7cfde006daa9e8.setContent(html_e0b59eb8b8ef4d8fb7db2af2c1d12458);
+        
+
+        circle_baeac0e922644de7baf108197258b358.bindPopup(popup_b458b2d871ff4f258b7cfde006daa9e8)
+        ;
+
+        
+    
+    
+            var circle_377753203d77483583792f4598d44ee3 = L.circle(
+                [37.7726508, -122.4172046],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.9833333333333334, "stroke": true, "weight": 3}
+            ).addTo(map_d274a924993a42ea934260fa7b297e34);
+        
+    
+        var popup_9d8ca9e2699a491199d75be2a9eee9a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d8200a33a4814d77a33ba1d6e9e52c96 = $(`<div id="html_d8200a33a4814d77a33ba1d6e9e52c96" style="width: 100.0%; height: 100.0%;">Occupancy: 1-100                     Price: $595/mth</div>`)[0];
+            popup_9d8ca9e2699a491199d75be2a9eee9a9.setContent(html_d8200a33a4814d77a33ba1d6e9e52c96);
+        
+
+        circle_377753203d77483583792f4598d44ee3.bindPopup(popup_9d8ca9e2699a491199d75be2a9eee9a9)
+        ;
+
+        
+    
+    
+            var circle_97d6cdef0dbc4843b1e0b34e4fcf6e61 = L.circle(
+                [37.7980534, -122.4060321],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50.0, "stroke": true, "weight": 3}
+            ).addTo(map_d274a924993a42ea934260fa7b297e34);
+        
+    
+        var popup_922469e83ac949efa7e06a8a1db9b820 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ceab742c80d4dfc96814055611a56e1 = $(`<div id="html_1ceab742c80d4dfc96814055611a56e1" style="width: 100.0%; height: 100.0%;">Occupancy: 15-34                     Price: $15000/mth</div>`)[0];
+            popup_922469e83ac949efa7e06a8a1db9b820.setContent(html_1ceab742c80d4dfc96814055611a56e1);
+        
+
+        circle_97d6cdef0dbc4843b1e0b34e4fcf6e61.bindPopup(popup_922469e83ac949efa7e06a8a1db9b820)
+        ;
+
+        
+    
+    
+            var circle_e07294d3f31b468a8ca9340e9fb38c39 = L.circle(
+                [37.7980534, -122.4060321],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.69, "stroke": true, "weight": 3}
+            ).addTo(map_d274a924993a42ea934260fa7b297e34);
+        
+    
+        var popup_efdc01f6ce4f400ab931cb5f2a19bb17 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c6f125571ff4b50a647672146da8d9c = $(`<div id="html_9c6f125571ff4b50a647672146da8d9c" style="width: 100.0%; height: 100.0%;">Occupancy: 1-50                     Price: $507/mth</div>`)[0];
+            popup_efdc01f6ce4f400ab931cb5f2a19bb17.setContent(html_9c6f125571ff4b50a647672146da8d9c);
+        
+
+        circle_e07294d3f31b468a8ca9340e9fb38c39.bindPopup(popup_efdc01f6ce4f400ab931cb5f2a19bb17)
+        ;
+
+        
+    
+    
+            var circle_b4ddb44cef604c57b5289665644e6e3f = L.circle(
+                [37.7930319, -122.4036806],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.8133333333333332, "stroke": true, "weight": 3}
+            ).addTo(map_d274a924993a42ea934260fa7b297e34);
+        
+    
+        var popup_05e3e0b48bcc4a2b81813053a8721eb8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f57e3407fb540b183ddaaf983a88dbf = $(`<div id="html_7f57e3407fb540b183ddaaf983a88dbf" style="width: 100.0%; height: 100.0%;">Occupancy: 1-50                     Price: $544/mth</div>`)[0];
+            popup_05e3e0b48bcc4a2b81813053a8721eb8.setContent(html_7f57e3407fb540b183ddaaf983a88dbf);
+        
+
+        circle_b4ddb44cef604c57b5289665644e6e3f.bindPopup(popup_05e3e0b48bcc4a2b81813053a8721eb8)
+        ;
+
+        
+    
+    
+            var circle_f477618a02d849a0bd39dffb8e43655b = L.circle(
+                [37.7946083, -122.3987301],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 117.4, "stroke": true, "weight": 3}
+            ).addTo(map_d274a924993a42ea934260fa7b297e34);
+        
+    
+        var popup_e969852a630a4f3a8f7235a2da7f0240 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f25ed856d39c4e1f8e42f46a0d330aad = $(`<div id="html_f25ed856d39c4e1f8e42f46a0d330aad" style="width: 100.0%; height: 100.0%;">Occupancy: 30-36                     Price: $35220/mth</div>`)[0];
+            popup_e969852a630a4f3a8f7235a2da7f0240.setContent(html_f25ed856d39c4e1f8e42f46a0d330aad);
+        
+
+        circle_f477618a02d849a0bd39dffb8e43655b.bindPopup(popup_e969852a630a4f3a8f7235a2da7f0240)
+        ;
+
+        
+    
+    
+            var circle_c9ae0d35d0c74588b856aff17924ac99 = L.circle(
+                [37.7942914, -122.404886],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.76, "stroke": true, "weight": 3}
+            ).addTo(map_d274a924993a42ea934260fa7b297e34);
+        
+    
+        var popup_b66e6cb0f0624bcd815a2ec8783c7deb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36e6fb974dcc4e56a0323675f21be104 = $(`<div id="html_36e6fb974dcc4e56a0323675f21be104" style="width: 100.0%; height: 100.0%;">Occupancy: 1-50                     Price: $528/mth</div>`)[0];
+            popup_b66e6cb0f0624bcd815a2ec8783c7deb.setContent(html_36e6fb974dcc4e56a0323675f21be104);
+        
+
+        circle_c9ae0d35d0c74588b856aff17924ac99.bindPopup(popup_b66e6cb0f0624bcd815a2ec8783c7deb)
+        ;
+
+        
+    
+    
+            var circle_980358aea2054a2cb55b84c8c9ff1c24 = L.circle(
+                [37.7783494, -122.4142472],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.9333333333333333, "stroke": true, "weight": 3}
+            ).addTo(map_d274a924993a42ea934260fa7b297e34);
+        
+    
+        var popup_3072272129b14cbf9144a6bc15e13931 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_344160a0a33042b0b5bf7d53b52b6e26 = $(`<div id="html_344160a0a33042b0b5bf7d53b52b6e26" style="width: 100.0%; height: 100.0%;">Occupancy: 1-100                     Price: $580/mth</div>`)[0];
+            popup_3072272129b14cbf9144a6bc15e13931.setContent(html_344160a0a33042b0b5bf7d53b52b6e26);
+        
+
+        circle_980358aea2054a2cb55b84c8c9ff1c24.bindPopup(popup_3072272129b14cbf9144a6bc15e13931)
+        ;
+
+        
+    
+    
+            var circle_1b3c3271c27548cf85fdcbea980271ed = L.circle(
+                [37.7974706, -122.4030252],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_d274a924993a42ea934260fa7b297e34);
+        
+    
+        var popup_05d6eb3982e14da19d6cbf03b440c1ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee67650fe5fd40bbb247d6531ab8eb5f = $(`<div id="html_ee67650fe5fd40bbb247d6531ab8eb5f" style="width: 100.0%; height: 100.0%;">Occupancy: 1-99                     Price: $300/mth</div>`)[0];
+            popup_05d6eb3982e14da19d6cbf03b440c1ee.setContent(html_ee67650fe5fd40bbb247d6531ab8eb5f);
+        
+
+        circle_1b3c3271c27548cf85fdcbea980271ed.bindPopup(popup_05d6eb3982e14da19d6cbf03b440c1ee)
+        ;
+
+        
+    
+    
+            var circle_1a40f24043d146dc99a910667e99ef75 = L.circle(
+                [37.7974706, -122.4030252],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.9066666666666667, "stroke": true, "weight": 3}
+            ).addTo(map_d274a924993a42ea934260fa7b297e34);
+        
+    
+        var popup_039c428eb60e46f5a5a4868c8320ca56 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e21248b7b68b4093a9ad2c9d5a512755 = $(`<div id="html_e21248b7b68b4093a9ad2c9d5a512755" style="width: 100.0%; height: 100.0%;">Occupancy: 1-50                     Price: $872/mth</div>`)[0];
+            popup_039c428eb60e46f5a5a4868c8320ca56.setContent(html_e21248b7b68b4093a9ad2c9d5a512755);
+        
+
+        circle_1a40f24043d146dc99a910667e99ef75.bindPopup(popup_039c428eb60e46f5a5a4868c8320ca56)
+        ;
+
+        
+    
+    
+            var circle_9d8c3ff644f34a1a9a683a50f9569951 = L.circle(
+                [37.8016902, -122.4068222],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.683333333333333, "stroke": true, "weight": 3}
+            ).addTo(map_d274a924993a42ea934260fa7b297e34);
+        
+    
+        var popup_e74194b4a1ae406b9cf9d595405c6580 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e38e0945146b4813929a21a5c4ac7859 = $(`<div id="html_e38e0945146b4813929a21a5c4ac7859" style="width: 100.0%; height: 100.0%;">Occupancy: 1-100                     Price: $805/mth</div>`)[0];
+            popup_e74194b4a1ae406b9cf9d595405c6580.setContent(html_e38e0945146b4813929a21a5c4ac7859);
+        
+
+        circle_9d8c3ff644f34a1a9a683a50f9569951.bindPopup(popup_e74194b4a1ae406b9cf9d595405c6580)
+        ;
+
+        
+    
+</script>
